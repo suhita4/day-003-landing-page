@@ -136,6 +136,7 @@ nav p {
   display: flex;
   justify-content: space-between;
   padding: 20px 80px;
+  margin-bottom: 50px;
 }
 
 .card {
