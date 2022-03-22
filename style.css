@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #0E0F10;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px;
+}
+
+.logo {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.17em;
+  color: #7557FF;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+nav p {
+  cursor: pointer;
+  color: #474C52;
+}
+
+.active {
+  font-weight: 700;
+  color: #7557FF;
+}
+
+.navbtn {
+  background: #7557FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 80px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  padding: 20px 80px;
+  align-items: center;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+.since {
+  display: flex;
+  align-items: center;
+}
+
+.since img {
+  height: 1px;
+  margin-right: 10px;
+}
+
+.since p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #474C52;
+}
+
+.heroText h1 {
+  font-weight: 800;
+  font-size: 54px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.heroText p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #393D41;
+}
+
+.herobtns {
+  display: flex;
+  margin-top: 30px;
+}
+
+.herobtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7557FF;
+  padding: 14px 40px;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.checkout img {
+  margin-right: 6px;
+}
+
+.checkout p {
+  font-weight: 600;
+  color: #2B2E31;
+  cursor: pointer;
+}
+
+.checkout p:hover {
+  text-decoration: underline;
+}
+
+.heroimg img {
+  width: 580px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #F4F5F5;
+  border: 2px solid #D3D6D9;
+  box-sizing: border-box;
+  border-radius: 18px;
+  padding: 23px;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: #7557FF;
+  background-color: #B0A4FE70;
+}
+
+.card div {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.card div p {
+  width: 80%;
+}
